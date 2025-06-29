@@ -60,8 +60,8 @@ namespace Ass_2_C_
 
             #region 8-	Which of the following statements is correct about the C#.NET code snippet given below?
 
-            int d;
-            d = Convert.ToInt32(!(30 < 20));
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
 
             //b)	A value 1 will be assigned to d.
 
@@ -75,12 +75,12 @@ namespace Ass_2_C_
 
             #region -What will be the output of the C# code given below?
 
-            int num = 1, z = 5;
+            //int num = 1, z = 5;
 
-            if (!(num <= 0)) //if (num <= 0) true it will be false
-                Console.WriteLine(++num + z++ + " " + ++z); //(2 +5) then 'z' will be 7
-            else
-                Console.WriteLine(--num + z-- + " " + --z); // (0+ 5) + 3
+            //if (!(num <= 0)) //if (num <= 0) true it will be false
+              //  Console.WriteLine(++num + z++ + " " + ++z); //(2 +5) then 'z' will be 7
+            //else
+              //  Console.WriteLine(--num + z-- + " " + --z); // (0+ 5) + 3
 
             //d)	7 7
 
